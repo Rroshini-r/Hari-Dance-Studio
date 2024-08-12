@@ -9,6 +9,13 @@ body{
     background-color: #f7b605;
     text-align: center;
     margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    background-color: #08175c;
+    color: #f7b605;
+    padding: 0%;
 }
 
 p{
