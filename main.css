@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 body{
     color: #08175c;
-    
+    background-color: #f7b605;
+    text-align: center;
 }
 
-table{
+.navbar{
     background-color: #f7b605;
     text-align: center;
     margin: 0%;
+}
+
+p{
+    background-color: white;
 }
