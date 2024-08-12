@@ -16,9 +16,10 @@ body{
 
 nav{
     background-color: #08175c;
-    padding: 20%;
+    padding: 0%;
     margin: 0;
     font-family: "Lato";
+    color: white;
 }
 
 h1{
