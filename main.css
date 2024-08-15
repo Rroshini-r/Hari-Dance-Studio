@@ -42,11 +42,12 @@ p{
 .kids_dance{
     text-align: left;
     margin-left: 5px;
+    background-image: url("classes_bkgrd.png");
 }
 
 .preschool_dance{
     background-image: url("classes_bkgrd.png");
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .link{
