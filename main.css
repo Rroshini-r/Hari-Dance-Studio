@@ -41,5 +41,6 @@ p{
 }
 
 .preschool_dance{
-    background-image: url("Hari Dance Studio\classes_bkgrd.png");
+    background-image: url("classes_bkgrd.png");
+    margin-left: 50px;
 }
