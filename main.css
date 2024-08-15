@@ -35,6 +35,10 @@ p{
     font-family: "Lato";
 }
 
+.info{
+    text-align: right;
+}
+
 .kids_dance{
     text-align: left;
     margin-left: 10px;
