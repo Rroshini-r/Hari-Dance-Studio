@@ -48,3 +48,11 @@ p{
     background-image: url("classes_bkgrd.png");
     margin-left: 50px;
 }
+
+.link{
+    text-decoration: underline;
+}
+
+a{
+    padding: 10px;
+}
