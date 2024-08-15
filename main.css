@@ -58,3 +58,9 @@ a{
     text-align: center;
     color: white;
 }
+
+button{
+    border:#08175c;
+    color: white;
+    padding: 5px;
+}
