@@ -46,8 +46,9 @@ p{
 
 .kids_dance{
     text-align: left;
-    margin-left: 5px;
+    margin-left: 0px;
     background-image: url("classes_bkgrd.png");
+    background-repeat: repeat-x;
 }
 
 .link{
@@ -65,4 +66,11 @@ button{
     background-color: #08175c;
     color: white;
     padding: 5px;
+}
+
+.info{
+    text-align: left;
+    margin-left: 5px;
+    background-image: url("contactus_bkgrd.png");
+    background-repeat: repeat-x;
 }
