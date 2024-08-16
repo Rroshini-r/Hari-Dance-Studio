@@ -39,7 +39,7 @@ p{
     text-align: right;
 }
 
-.preschool_dance{
+div{
     background-image: url("classes_bkgrd.png");
     margin-left: 5%;
 }
@@ -74,3 +74,4 @@ button{
     background-image: url("contactus_bkgrd.png");
     background-repeat: repeat-x;
 }
+
