@@ -34,21 +34,18 @@ p{
     background-color: white;
     font-family: "Lato";
 }
- 
-.info{
-    text-align: right;
-}
 
 div{
     background-image: url("classes_bkgrd.png");
     margin-left: 5%;
 }
 
-.kids_dance{
+.dance{
     text-align: left;
     margin-left: 0px;
     background-image: url("classes_bkgrd.png");
     background-repeat: repeat-x;
+    float: left;
 }
 
 .link{
@@ -56,7 +53,7 @@ div{
 }
 
 a{
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     color: white;
 }
@@ -69,8 +66,8 @@ button{
 }
 
 .info{
-    text-align: left;
-    margin-left: 5px;
+    text-align: right;
+    margin: auto;
     background-image: url("contactus_bkgrd.png");
     background-repeat: repeat-x;
 }
