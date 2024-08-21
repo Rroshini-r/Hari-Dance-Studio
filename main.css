@@ -53,7 +53,7 @@ div{
 }
 
 a{
-    padding: 20px;
+    padding: 10%;
     text-align: center;
     color: white;
 }
@@ -70,5 +70,13 @@ button{
     margin: auto;
     background-image: url("contactus_bkgrd.png");
     background-repeat: repeat-x;
+    
 }
 
+footer{
+    background-color: #f7b605;
+    text-align: center;
+    font-family: "Lato";
+    padding: 5%;
+    place-content: bottom;
+}
