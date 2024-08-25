@@ -16,10 +16,17 @@ head{
 
 nav{
     background-color: #08175c;
-    padding: 0%;
-    margin: 0;
+    margin: 0%;
     font-size: 20px;
     font-family: "Lato";
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+a{
+    padding: 10%;
+    text-align: center;
     color: white;
 }
 
@@ -31,7 +38,6 @@ h1{
 }
 
 p{
-    background-color: white;
     font-family: "Lato";
 }
 
@@ -50,13 +56,10 @@ div{
 
 .link{
     text-decoration: underline;
+    color: #08175c;
+    padding: 0px;
 }
 
-a{
-    padding: 10%;
-    text-align: center;
-    color: white;
-}
 
 button{
     border:#08175c;
@@ -77,6 +80,11 @@ footer{
     background-color: #f7b605;
     text-align: center;
     font-family: "Lato";
-    padding: 5%;
+    padding: 1%;
     place-content: bottom;
+}
+
+
+.gallery{
+    margin: 2%;
 }
