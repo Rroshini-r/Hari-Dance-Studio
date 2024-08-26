@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&family=Playwrite+BE+VLG:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oregano:ital@0;1&family=Playwrite+BE+VLG:wght@100..400&display=swap');
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html{
     color: #08175c;
-    background-color: white;
     text-align: center;
+    height: 100%;
+    margin: 0%;
+    min-height: 100vh;
 }
 
 head{
@@ -69,8 +78,8 @@ button{
 }
 
 .info{
-    text-align: right;
-    margin: auto;
+    text-align: center;
+    margin: 0;
     background-image: url("contactus_bkgrd.png");
     background-repeat: repeat-x;
     
@@ -88,3 +97,21 @@ footer{
 .gallery{
     margin: 2%;
 }
+
+.nav{
+    color:white;
+    display: flex;
+    /*gap: 15px;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    font-family: "Lato";
+    margin: auto;
+    float: left;
+
+}
+
