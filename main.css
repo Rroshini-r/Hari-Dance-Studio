@@ -50,6 +50,11 @@ p{
     font-family: "Lato";
 }
 
+h3{
+    font-family: "Texturina";
+    font-size: 25px;
+}
+
 div{
     background-image: url("classes_bkgrd.png");
     margin-left: 5%;
@@ -111,7 +116,6 @@ footer{
 li{
     font-family: "Lato";
     margin: auto;
-    float: left;
 
 }
 
