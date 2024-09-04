@@ -65,6 +65,7 @@ h3{
 .contact_bkgrd{
     background-image: url("contactus_bkgrd.png");
     background-repeat: repeat-x;
+    
 }
 
 .link{
@@ -84,7 +85,9 @@ button{
 
 .info{
     text-align: center;
-    margin: 10%;  
+    width: 75%;
+    display: inline;
+    vertical-align: middle;
 }
 
 footer{
@@ -97,9 +100,36 @@ footer{
     bottom: 0%;
 }
 
+div.gallery {
+    border: 0px;
+}
 
-.gallery{
-    margin: 2%;
+div.gallery:hover {
+    border: 1px solid #777;
+}
+ 
+div.gallery img {
+    width: 50%;
+    height: auto;
+}
+
+.responsive {
+    padding: 0 2px;
+    float: left;
+    width: 24.99999%;
+}
+ 
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 29.99999%;
+      margin: 6px 0;
+    }
+}
+ 
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
 }
 
 .nav{
@@ -117,8 +147,17 @@ li{
 
 }
 
-div{
-    margin-top: 1%;
-    margin-bottom: 0.5%;
+div.home{
+    margin-top: 2%;
+    margin-bottom: 2%;
     position: relative;
 }
+
+.dance{
+    display: inline;
+    margin-left: 1%;
+    float: left;
+    vertical-align: middle;
+    width: 100%;
+}
+
