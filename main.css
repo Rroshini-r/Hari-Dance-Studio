@@ -35,10 +35,35 @@ nav{
     text-align: center;
 }
 
+.nav{
+    color:white;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hover:hover{
+    text-decoration: underline #f7b605;
+}
+
+li{
+    font-family: "Lato";
+    margin: auto;
+}
+
+span{
+    color:white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 a{
     padding: 10%;
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 
 h1{
@@ -50,6 +75,8 @@ h1{
 
 p{
     font-family: "Lato";
+    line-height: 100%;
+    margin: 1%;
 }
 
 h3{
@@ -97,31 +124,37 @@ footer{
     padding: 1%;
     place-content: bottom;
     position: relative;
-    bottom: 0%;
+    margin-bottom: 0%;
+    margin-top: 2%;
 }
 
-div.gallery {
+
+div.gallery, .responsive {
     border: 0px;
+    width: 100%;
 }
+
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #08175c;
 }
  
 div.gallery img {
-    width: 50%;
+    width: 75%;
     height: auto;
+    line-height: normal;
+    
 }
 
 .responsive {
     padding: 0 2px;
-    float: left;
+    display: inline-block;
     width: 24.99999%;
 }
  
 @media only screen and (max-width: 700px) {
     .responsive {
-      width: 29.99999%;
+      width: 49.99999%;
       margin: 6px 0;
     }
 }
@@ -130,21 +163,6 @@ div.gallery img {
     .responsive {
       width: 100%;
     }
-}
-
-.nav{
-    color:white;
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li{
-    font-family: "Lato";
-    margin: auto;
-
 }
 
 div.home{
@@ -161,3 +179,21 @@ div.home{
     width: 100%;
 }
 
+
+table{
+    margin-right: 2%;
+    padding: 0px;
+    width: flex;
+    border-collapse: collapse;
+}
+
+.contactus_table{
+    padding: 1%;
+    margin-top: 1%;
+}
+
+/*img{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}*/
