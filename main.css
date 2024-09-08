@@ -192,13 +192,7 @@ table{
     margin-top: 1%;
 }
 
-/*img{
-    display: flex;
-    justify-content: space-between;
-    vertical-align: top;
-}*/
-
 .tap, .hiphop{
 
-    text-align:inherit ;
+    text-align:center ;
 }
