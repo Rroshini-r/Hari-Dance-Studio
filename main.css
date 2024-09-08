@@ -82,6 +82,7 @@ p{
 h3{
     font-family: "Texturina";
     font-size: 25px;
+    padding: 2%;
 }
 
 .preschool_dance, .jazz, .tap, .hiphop, .ballet, .contemp{
@@ -195,4 +196,10 @@ table{
 .tap, .hiphop{
 
     text-align:center ;
+}
+
+.small_img img{
+    padding: 5%;
+    width: 25%;
+    vertical-align: auto;
 }
